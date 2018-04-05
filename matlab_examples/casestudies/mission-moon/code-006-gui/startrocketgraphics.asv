@@ -1,0 +1,20 @@
+
+
+figure;
+hold on;
+
+
+
+plot( 0 , 0 ,'o','MarkerFaceColor','b','MarkerSize',8);
+hold on;
+h=plot( x , y ,'o','MarkerFaceColor','g','MarkerSize',4);
+hold on;
+hm=plot( xm , ym ,'o','MarkerFaceColor','b','MarkerSize',6);
+hold on;
+
+
+%output
+
+
+
+pause;
